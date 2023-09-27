@@ -1,18 +1,15 @@
 
 
 function escrevaMeuNome (nome) {
-    console.log('Meu nome é:' + nome);
+    return ('Meu nome é:' + nome);
 }
-
-escrevaMeuNome('alice');
-escrevaMeuNome('bot');
 
 function verificarIdade(idade){
     if (idade >=18){
-        console.log('maior')
+        console.log(escrevaMeuNome('Alice') + 'maior');
     } else {
-        console.log('menor')
+        console.log(escrevaMeuNome('Alice') + 'menor');
     }
 }
 
-verificarIdade(12);
+verificarIdade(19);
